@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.env/
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# Poetry files
+poetry.lock
+
+# VSCode / Editor folders
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Test reports
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+.pytest_cache/
+
+# Streamlit specific
+.streamlit/
+
+# Docker files
+docker-compose.override.yml
+*.log
+
+# GitHub workflows temporary files
+.github/workflows/*.log
+
+# Misc
+*.sqlite3
