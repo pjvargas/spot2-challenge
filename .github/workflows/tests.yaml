@@ -25,4 +25,4 @@ jobs:
         run: poetry install
 
       - name: Run tests
-        run: poetry run pytest
+        run: OPENAI_API_KEY=sk-fake poetry run pytest
